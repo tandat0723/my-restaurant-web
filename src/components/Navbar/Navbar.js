@@ -21,7 +21,7 @@ function Navbar() {
                                 href='/'
                                 className={`nav-link ${isActive('/') ? 'active' : 'inactive'}`}
                             >
-                                Vấn Đáp
+                                Vấn Đáp 1
                             </Link>
                         </li>
                         <li className="nav-item">
