@@ -1,10 +1,9 @@
-import SearchToggle from "@/components/SearchToggle/SearchToggle";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <SearchToggle />
+      profile
     </div>
   );
 }
