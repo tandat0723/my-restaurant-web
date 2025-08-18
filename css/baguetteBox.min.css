@@ -19,9 +19,11 @@
   -webkit-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
 }
+
 #baguetteBox-overlay.visible {
   opacity: 1;
 }
+
 #baguetteBox-overlay .full-image {
   display: inline-block;
   position: relative;
@@ -29,11 +31,13 @@
   height: 100%;
   text-align: center;
 }
+
 #baguetteBox-overlay .full-image figure {
   display: inline;
   height: 100%;
   margin: 0;
 }
+
 #baguetteBox-overlay .full-image img {
   display: inline-block;
   width: auto;
@@ -45,6 +49,7 @@
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
+
 #baguetteBox-overlay .full-image figcaption {
   display: block;
   position: absolute;
@@ -58,6 +63,7 @@
   background-color: rgba(0, 0, 0, 0.6);
   font-family: sans-serif;
 }
+
 #baguetteBox-overlay .full-image:before {
   content: "";
   display: inline-block;
@@ -65,6 +71,7 @@
   width: 1px;
   margin-right: -1px;
 }
+
 #baguetteBox-slider {
   position: absolute;
   left: 0;
@@ -78,50 +85,65 @@
   transition: left 0.4s ease, transform 0.4s ease, -webkit-transform 0.4s ease,
     -moz-transform 0.4s ease;
 }
+
 #baguetteBox-slider.bounce-from-right {
   -webkit-animation: bounceFromRight 0.4s ease-out;
   animation: bounceFromRight 0.4s ease-out;
 }
+
 #baguetteBox-slider.bounce-from-left {
   -webkit-animation: bounceFromLeft 0.4s ease-out;
   animation: bounceFromLeft 0.4s ease-out;
 }
+
 @-webkit-keyframes bounceFromRight {
+
   0%,
   100% {
     margin-left: 0;
   }
+
   50% {
     margin-left: -30px;
   }
 }
+
 @keyframes bounceFromRight {
+
   0%,
   100% {
     margin-left: 0;
   }
+
   50% {
     margin-left: -30px;
   }
 }
+
 @-webkit-keyframes bounceFromLeft {
+
   0%,
   100% {
     margin-left: 0;
   }
+
   50% {
     margin-left: 30px;
   }
 }
+
 @keyframes bounceFromLeft {
+
   0%,
   100% {
     margin-left: 0;
   }
+
   50% {
     margin-left: 30px;
   }
 }
+
 .baguetteBox-button#next-button,
 .baguetteBox-button#previous-button {
   top: 50%;
@@ -129,6 +151,7 @@
   width: 44px;
   height: 60px;
 }
+
 .baguetteBox-button {
   position: absolute;
   cursor: pointer;
@@ -145,16 +168,20 @@
   -webkit-transition: background-color 0.4s ease;
   transition: background-color 0.4s ease;
 }
+
 .baguetteBox-button:focus,
 .baguetteBox-button:hover {
   background-color: rgba(50, 50, 50, 0.9);
 }
+
 .baguetteBox-button#next-button {
   right: 2%;
 }
+
 .baguetteBox-button#previous-button {
   left: 2%;
 }
+
 .baguetteBox-button#close-button {
   top: 20px;
   right: 2%;
@@ -162,11 +189,13 @@
   width: 30px;
   height: 30px;
 }
+
 .baguetteBox-button svg {
   position: absolute;
   left: 0;
   top: 0;
 }
+
 .baguetteBox-spinner {
   width: 40px;
   height: 40px;
@@ -177,6 +206,7 @@
   margin-top: -20px;
   margin-left: -20px;
 }
+
 .baguetteBox-double-bounce1,
 .baguetteBox-double-bounce2 {
   width: 100%;
@@ -191,28 +221,35 @@
   -webkit-animation: bounce 2s infinite ease-in-out;
   animation: bounce 2s infinite ease-in-out;
 }
+
 .baguetteBox-double-bounce2 {
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
 }
+
 @-webkit-keyframes bounce {
+
   0%,
   100% {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   50% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
+
 @keyframes bounce {
+
   0%,
   100% {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     transform: scale(0);
   }
+
   50% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
